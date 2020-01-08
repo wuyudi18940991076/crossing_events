@@ -1,0 +1,1376 @@
+@charset "UTF-8";
+/*----------------------------------------
+ 1. リセットcssを指定
+----------------------------------------*/
+/*----------------------------------------
+ RESET for NHN 
+----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000321}}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: transparent;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000342}}
+main, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000347}}
+body {
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000352}}
+ul, ol, li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000356}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000360}}
+img {
+  vertical-align: bottom;
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000365}}
+label {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000369}}
+del {
+  text-decoration: line-through;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000373}}
+blockquote, q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000377}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000383}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*----------------------------------------
+ 2. Style設定
+----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000345}}
+body {
+  color: #666;
+  font-size: 12px;
+  font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  line-height: 1.333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000352}}
+a:link {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000353}}
+a:visited {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000354}}
+a:hover {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000355}}
+a:active {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000358}}
+html {
+  overflow-y: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000362}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000368}}
+a:hover, a:active {
+  text-decoration: underline;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/_core\/reset\/_setting\.scss}line{font-family:\00003141}}
+em {
+  font-style: normal;
+}
+
+/*----------------------------------------
+ 3-1. clearfixクラスを出力
+----------------------------------------*/
+/*----------------------------------------
+ 3-2. margin／padding スペースクラスを出力
+----------------------------------------*/
+/*----------------------------------------
+ 3-3. サイト制作支援用 シングルプロパティを出力
+----------------------------------------*/
+/* 共通サンプル */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000349}}
+a:focus,
+*:focus {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000354}}
+.font-none {
+  font-size: 0;
+  color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000359}}
+.clear_bfc::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000366}}
+.contentsArea {
+  min-width: 960px;
+  background-color: #fff;
+  background: url('../img/bg_event1.jpg?1572586251') no-repeat center top, url('../img/bg_event2.jpg?1572586261') no-repeat center 932px, url('../img/bg_event3.jpg?1572586271') no-repeat center 3102px, url('../img/bg_event4.jpg?1572586282') no-repeat center 4160px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000374}}
+.contentsArea .crossing_nav {
+  height: 50px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #fff;
+  border-bottom: 4px solid #2f4268;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000384}}
+.contentsArea .crossing_nav ul {
+  width: 960px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000388}}
+.contentsArea .crossing_nav ul li {
+  float: left;
+  width: 319px;
+  height: 54px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000394}}
+.contentsArea .crossing_nav ul .nav_event1 {
+  width: 319px;
+  height: 54px;
+  border-right: 1px solid #d0d0d0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\0000399}}
+.contentsArea .crossing_nav ul .nav_event1 a {
+  width: 319px;
+  height: 54px;
+  display: block;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 319px;
+  height: 54px;
+  background-position: 0 -526px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003105}}
+.contentsArea .crossing_nav ul .nav_event1 a:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 319px;
+  height: 54px;
+  background-position: 0 -582px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003111}}
+.contentsArea .crossing_nav ul .nav_event2 {
+  width: 319px;
+  height: 54px;
+  border-right: 1px solid #d0d0d0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003116}}
+.contentsArea .crossing_nav ul .nav_event2 a {
+  width: 319px;
+  height: 54px;
+  display: block;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 319px;
+  height: 54px;
+  background-position: 0 -1401px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003122}}
+.contentsArea .crossing_nav ul .nav_event2 a:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 319px;
+  height: 54px;
+  background-position: 0 -1457px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003128}}
+.contentsArea .crossing_nav ul .nav_event3 {
+  width: 319px;
+  height: 54px;
+  border-right: 1px solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003133}}
+.contentsArea .crossing_nav ul .nav_event3 a {
+  width: 319px;
+  height: 54px;
+  display: block;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 320px;
+  height: 54px;
+  background-position: 0 -1062px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003139}}
+.contentsArea .crossing_nav ul .nav_event3 a:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 320px;
+  height: 54px;
+  background-position: 0 -1118px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003147}}
+.contentsArea .nav_fixed {
+  display: none;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #fff;
+  border-bottom: 4px solid #2f4268;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003161}}
+.title {
+  width: 960px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003165}}
+.title h1 {
+  width: 668px;
+  height: 207px;
+  margin: 94px auto 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003171}}
+.title .title_text1 {
+  width: 409px;
+  height: 23px;
+  margin: 8px auto 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003177}}
+.title .title_text2 {
+  width: 533px;
+  height: 41px;
+  margin: 14px auto 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003183}}
+.title .join-activity {
+  display: block;
+  width: 400px;
+  height: 106px;
+  margin: 55px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 106px;
+  background-position: 0 -797px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003190}}
+.title .join-activity:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 106px;
+  background-position: 0 -905px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003195}}
+.title .title_text3 {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin: 12px auto 0px;
+  padding-bottom: 92px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003207}}
+.main_content {
+  width: 960px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003211}}
+.main_content .details_click_body {
+  width: 960px;
+  margin: auto;
+  position: relative;
+  padding-top: 685px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003217}}
+.main_content .details_click_body .details_click {
+  position: absolute;
+  display: block;
+  top: 537px;
+  left: 387px;
+  width: 136px;
+  height: 22px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 136px;
+  height: 22px;
+  background-position: 0 -638px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003228}}
+.main_content .nav_event_one {
+  padding-top: 105px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003232}}
+.main_content .nav_event_one .blue_challenge {
+  display: block;
+  width: 400px;
+  height: 106px;
+  padding-top: 0px;
+  margin: 0px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 106px;
+  background-position: 0 -130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003240}}
+.main_content .nav_event_one .blue_challenge:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 106px;
+  background-position: 0 -238px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003245}}
+.main_content .nav_event_one .answer_correctly {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #5c4115;
+  margin: 26px auto 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003253}}
+.main_content .nav_event_one .number {
+  margin-top: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003256}}
+.main_content .nav_event_one .number li {
+  display: inline-block;
+  vertical-align: top;
+  width: 470px;
+  height: 38px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003263}}
+.main_content .nav_event_one .number li span {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  right: 45px;
+  top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003273}}
+.main_content .nav_event_one .number li:nth-child(1) {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003279}}
+.main_content .subject_content {
+  width: 100%;
+  padding: 100px 0px 56px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003283}}
+.main_content .subject_content .subject_title {
+  width: 555px;
+  height: 132px;
+  margin: 0px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003289}}
+.main_content .subject_content ul {
+  margin: 0px 26px 0px 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003292}}
+.main_content .subject_content ul li {
+  float: left;
+  position: relative;
+  width: 160px;
+  height: 120px;
+  margin-left: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003299}}
+.main_content .subject_content ul li a {
+  display: block;
+  width: 160px;
+  height: 120px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003306}}
+.main_content .subject_content ul li a:hover::before {
+  content: "";
+  display: block;
+  width: 154px;
+  height: 114px;
+  border: 3px solid #ff0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003320}}
+.main_content .subject_content ul .complete::after {
+  content: "";
+  display: block;
+  background: url('../img/complete.png?1572849792') no-repeat center top;
+  background-size: cover;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003335}}
+.main_content .subject_content .subject_list1 {
+  padding-top: 90px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003339}}
+.main_content .subject_content .subject_list1 li:nth-child(1) {
+  background: url('../img/list_one1.png?1572845622') no-repeat center top;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003344}}
+.main_content .subject_content .subject_list1 li:nth-child(2) {
+  background: url('../img/list_one2.png?1572845629') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003348}}
+.main_content .subject_content .subject_list1 li:nth-child(3) {
+  background: url('../img/list_one3.png?1572845636') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003352}}
+.main_content .subject_content .subject_list1 li:nth-child(4) {
+  background: url('../img/list_one4.png?1572845643') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003357}}
+.main_content .subject_content .subject_list2 {
+  padding-top: 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003361}}
+.main_content .subject_content .subject_list2 li:nth-child(1) {
+  background: url('../img/list_two1.png?1572845650') no-repeat center top;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003366}}
+.main_content .subject_content .subject_list2 li:nth-child(2) {
+  background: url('../img/list_two2.png?1572845657') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003370}}
+.main_content .subject_content .subject_list2 li:nth-child(3) {
+  background: url('../img/list_two3.png?1572845665') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003374}}
+.main_content .subject_content .subject_list2 li:nth-child(4) {
+  background: url('../img/list_two4.png?1572845672') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003378}}
+.main_content .subject_content .subject_list2 li:nth-child(5) {
+  background: url('../img/list_two5.png?1572845680') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003382}}
+.main_content .subject_content .subject_list2 li:nth-child(6) {
+  background: url('../img/list_two6.png?1572845703') no-repeat center top;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003388}}
+.main_content .subject_content .subject_list2 li:nth-child(7) {
+  background: url('../img/list_two7.png?1572845710') no-repeat center top;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003393}}
+.main_content .subject_content .subject_list2 li:nth-child(8) {
+  background: url('../img/list_two8.png?1572845718') no-repeat center top;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003398}}
+.main_content .subject_content .subject_list2 li:nth-child(9) {
+  background: url('../img/list_two9.png?1572845688') no-repeat center top;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003403}}
+.main_content .subject_content .subject_list2 li:nth-child(10) {
+  background: url('../img/list_two10.png?1572845695') no-repeat center top;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003409}}
+.main_content .subject_content .subject_list3 {
+  padding-top: 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003413}}
+.main_content .subject_content .subject_list3 li:nth-child(1) {
+  background: url('../img/list_three1.png?1572845725') no-repeat center top;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003418}}
+.main_content .subject_content .subject_list3 li:nth-child(2) {
+  background: url('../img/list_three2.png?1572845733') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003422}}
+.main_content .subject_content .subject_list3 li:nth-child(3) {
+  background: url('../img/list_three3.png?1572845741') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003426}}
+.main_content .subject_content .subject_list3 li:nth-child(4) {
+  background: url('../img/list_three4.png?1572845749') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003430}}
+.main_content .subject_content .subject_list3 li:nth-child(5) {
+  background: url('../img/list_three5.png?1572845756') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003434}}
+.main_content .subject_content .subject_list3 li:nth-child(6) {
+  background: url('../img/list_three6.png?1572845764') no-repeat center top;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003440}}
+.main_content .subject_content .subject_list3 li:nth-child(7) {
+  background: url('../img/list_three7.png?1572845772') no-repeat center top;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003446}}
+.main_content .subject_content .subject_list4 {
+  padding-top: 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003450}}
+.main_content .subject_content .subject_list4 li:nth-child(1) {
+  background: url('../img/list_four1.png?1572845779') no-repeat center top;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003455}}
+.main_content .subject_content .subject_list4 li:nth-child(2) {
+  background: url('../img/list_four2.png?1572845787') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003459}}
+.main_content .subject_content .subject_list4 li:nth-child(4) {
+  background: url('../img/list_four3.png?1572845795') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003464}}
+.main_content .subject_content .subject_list5 {
+  padding-top: 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003468}}
+.main_content .subject_content .subject_list5 li:nth-child(1) {
+  background: url('../img/list_five1.png?1572845803') no-repeat center top;
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003473}}
+.main_content .subject_content .subject_list5 li:nth-child(2) {
+  background: url('../img/list_five2.png?1572845811') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003477}}
+.main_content .subject_content .subject_list5 li:nth-child(3) {
+  background: url('../img/list_five3.png?1572845818') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003481}}
+.main_content .subject_content .subject_list5 li:nth-child(4) {
+  background: url('../img/list_five4.png?1572845826') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003487}}
+.main_content .play_situation {
+  padding: 0px 0px 40px 0px;
+  text-align: center;
+  font-size: 15px;
+  color: #5c4115;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003494}}
+.main_content .nav_event_three {
+  padding-top: 156px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003497}}
+.main_content .nav_event_three ul {
+  width: 674px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003501}}
+.main_content .nav_event_three ul li {
+  margin-right: 11px;
+  width: 217px;
+  height: 101px;
+  float: left;
+  text-align: center;
+  padding: 158px 0 6px;
+  color: #808080;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003512}}
+.main_content .nav_event_three ul li p {
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003515}}
+.main_content .nav_event_three ul li p strong {
+  color: #ff0000;
+  font-weight: bolder;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003522}}
+.main_content .nav_event_three ul li .middle_size {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003527}}
+.main_content .nav_event_three ul li a {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 11px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -662px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003534}}
+.main_content .nav_event_three ul li a:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -707px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003539}}
+.main_content .nav_event_three ul li .replaced {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 11px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -1284px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003547}}
+.main_content .nav_event_three ul li .finished {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 11px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -752px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003556}}
+.main_content .nav_event_three ul li:nth-child(3) {
+  margin-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003561}}
+.main_content .nav_event_three .autumn {
+  width: 674px;
+  height: 199px;
+  margin: 158px auto 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003567}}
+.main_content .nav_event_three .autumn .autumn_content {
+  float: right;
+  margin: 50px 24px 0px 0px;
+  width: 222px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003573}}
+.main_content .nav_event_three .autumn .autumn_content p {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003578}}
+.main_content .nav_event_three .autumn .autumn_content p strong {
+  color: #ff0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003583}}
+.main_content .nav_event_three .autumn .autumn_content a {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 13px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -346px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003590}}
+.main_content .nav_event_three .autumn .autumn_content a:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -391px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003595}}
+.main_content .nav_event_three .autumn .autumn_content span {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 13px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -481px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003603}}
+.main_content .nav_event_three .autumn .autumn_content span {
+  width: 137px;
+  height: 43px;
+  display: block;
+  margin: 13px auto 0px;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 137px;
+  height: 43px;
+  background-position: 0 -436px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003611}}
+.main_content .nav_event_three .autumn .autumn_content .applying {
+  font-size: 13px;
+  margin-top: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003616}}
+.main_content .nav_event_three .autumn .autumn_content .see_details {
+  position: absolute;
+  bottom: 13px;
+  left: 237px;
+  width: 111px;
+  height: 27px;
+  display: block;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 111px;
+  height: 27px;
+  background-position: 0 -1343px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003625}}
+.main_content .nav_event_three .autumn .autumn_content .see_details:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 111px;
+  height: 27px;
+  background-position: 0 -1372px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003632}}
+.main_content .nav_event_three .opportunity {
+  width: 467px;
+  margin: 0 auto;
+  padding-top: 157px;
+  text-align: center;
+  color: #515151;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003640}}
+.main_content .nav_event_three .opportunity .commodity_volume {
+  margin-top: 20px;
+  height: 133px;
+  padding-top: 156px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003645}}
+.main_content .nav_event_three .opportunity .commodity_volume li {
+  width: 217px;
+  padding-top: 0px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003650}}
+.main_content .nav_event_three .opportunity .commodity_volume li strong {
+  color: #ff0000;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003655}}
+.main_content .nav_event_three .opportunity .commodity_volume li p {
+  color: #6f6f6f;
+  margin-top: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003661}}
+.main_content .nav_event_three .opportunity .commodity_volume li:nth-child(1) {
+  margin-right: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003667}}
+.main_content .nav_event_three .registered_id {
+  padding-top: 128px;
+  height: 148px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003671}}
+.main_content .nav_event_three .registered_id a {
+  float: right;
+  width: 212px;
+  height: 108px;
+  display: block;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 212px;
+  height: 108px;
+  background-position: 0 -1174px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003682}}
+.footer_text {
+  width: 960px;
+  margin: 24px auto 0px;
+  font-size: 12px;
+  color: #000;
+  line-height: 21px;
+  padding-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003692}}
+.footer_text li {
+  text-indent: -12px;
+  padding-left: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003696}}
+.footer_text li strong {
+  color: #ff0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003700}}
+.footer_text li a {
+  color: #1162d0;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003706}}
+.footer_text p {
+  margin-top: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003711}}
+.top {
+  position: fixed;
+  z-index: 1000;
+  right: 4px;
+  top: 830px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003718}}
+.top a {
+  display: block;
+  background: url('../img/top.png?1572924018') no-repeat center top;
+  width: 177px;
+  height: 166px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003726}}
+.pop_write_bg {
+  height: 5740px;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100000;
+  background: rgba(255, 255, 255, 0.7);
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003739}}
+.pop_write_bg p a {
+  width: 47px;
+  height: 47px;
+  right: 47px;
+  top: 10px;
+  position: absolute;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 10px;
+  height: 12px;
+  background-position: 0 -1329px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003750}}
+.pop_write_bg .pop_layer {
+  width: 626px;
+  height: 223px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -154px;
+  margin-left: -360px;
+  padding: 10px 15px;
+  background-color: #fff6cb;
+  border: 32px solid #ffd100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003762}}
+.pop_write_bg .pop_layer p {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003766}}
+.pop_write_bg .pop_layer p a {
+  width: 47px;
+  height: 47px;
+  right: -32px;
+  top: -98px;
+  position: absolute;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 47px;
+  height: 47px;
+  background-position: 0 -1013px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003776}}
+.pop_write_bg .pop_layer li {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003779}}
+.pop_write_bg .pop_layer li a {
+  display: block;
+  font-size: 15px;
+  color: #975901;
+  font-weight: bolder;
+  padding-left: 7px;
+  line-height: 31px;
+  border: 1px solid #e0b800;
+  background-color: #fff;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003790}}
+.pop_write_bg .pop_layer li a:hover {
+  background-color: #e5f3d9;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003795}}
+.pop_write_bg .pop_layer li a:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003800}}
+.pop_write_bg .pop_layer li a::after {
+  content: '';
+  width: 10px;
+  height: 12px;
+  right: 12px;
+  top: 10px;
+  position: absolute;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 10px;
+  height: 12px;
+  background-position: 0 -1329px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003811}}
+.pop_write_bg .pop_layer li:nth-child(1) {
+  margin-top: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003817}}
+.pop_write_bg1 {
+  height: 5740px;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100000;
+  background: rgba(255, 255, 255, 0.7);
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003830}}
+.pop_write_bg1 .pop_popup {
+  width: 720px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -154px;
+  margin-left: -360px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003838}}
+.pop_write_bg1 .pop_popup .close {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003841}}
+.pop_write_bg1 .pop_popup .close a {
+  width: 47px;
+  height: 47px;
+  right: -32px;
+  top: -70px;
+  position: absolute;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 47px;
+  height: 47px;
+  background-position: 0 -1013px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003852}}
+.pop_write_bg1 .pop_popup .popup_bg {
+  width: 688px;
+  background-color: #ffd100;
+  padding: 32px 32px 0px;
+  height: 275px;
+  border-radius: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003859}}
+.pop_write_bg1 .pop_popup .popup_bg .popup_title {
+  background-color: #fff6cb;
+  border-radius: 8px;
+  width: 652px;
+  height: 113px;
+  padding: 19px 18px 19px 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003866}}
+.pop_write_bg1 .pop_popup .popup_bg .popup_title .popup_img {
+  width: 180px;
+  height: 65px;
+  margin-top: 0px;
+  background: url('../img/popup_img.png?1573008065') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003873}}
+.pop_write_bg1 .pop_popup .popup_bg .popup_title p {
+  font-size: 14px;
+  color: #010101;
+  margin-top: 15px;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003881}}
+.pop_write_bg1 .pop_popup .popup_bg .choice {
+  padding: 22px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003884}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li {
+  width: 344px;
+  height: 40px;
+  line-height: 30px;
+  float: left;
+  color: #000;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003892}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003896}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li label {
+  position: relative;
+  margin-right: 34px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003902}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003915}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li input:checked + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5.5px;
+  left: 3px;
+  width: 11px;
+  height: 11px;
+  background: #e01540;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003927}}
+.pop_write_bg1 .pop_popup .popup_bg .choice li .letter {
+  padding-left: 27px;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003939}}
+.pop_write_bg1 .pop_popup .popup_btn {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003942}}
+.pop_write_bg1 .pop_popup .popup_btn .answer {
+  width: 242px;
+  height: 63px;
+  display: block;
+  margin: 0 auto;
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 242px;
+  height: 63px;
+  background-position: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003949}}
+.pop_write_bg1 .pop_popup .popup_btn .answer:hover {
+  background-image: url('../img/spr-sec103340e1.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 242px;
+  height: 63px;
+  background-position: 0 -65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003954}}
+.pop_write_bg1 .pop_popup .popup_btn p {
+  margin-top: 13px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003958}}
+.pop_write_bg1 .pop_popup .popup_btn p a {
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003969}}
+.finish_event {
+  min-width: 960px;
+  height: 1523px;
+  background-color: #fff;
+  background: url('../img/bg_finish.jpg?1573026397') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003975}}
+.finish_event h1 {
+  width: 669px;
+  height: 204px;
+  margin: 45px auto 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003981}}
+.finish_event .date {
+  margin-top: 4px;
+  text-align: center;
+  height: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003987}}
+.finish_event h3 {
+  margin-top: 22px;
+  text-align: center;
+  height: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003993}}
+.finish_event .attention {
+  margin-top: 275px;
+  padding-left: 30px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\00003999}}
+.finish_event li {
+  line-height: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/crossing_events\/sass\/main\.v01\.scss}line{font-family:\000031003}}
+.finish_event p {
+  margin-top: 10px;
+}
+
+/* 以下は必要に応じて
+header, footer, section, h1, h2, h3, h4, h5, h6, div, p, th, td, dl, dt, dd, ul, ol, li, a, span {
+  box-sizing: border-box;
+}
+
+*/
